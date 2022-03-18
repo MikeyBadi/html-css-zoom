@@ -8,10 +8,73 @@
   background-color: #4A4A4A;
   border-radius: 5px; 
   color: white;
-  margin: 10px 0 10px 5px;
+  margin: 2px 0 2px 5px;
   padding: 3px 3px;
 }
 
 .grid-view{
   justify-content: flex-end;
+}
+header {
+  height: 30px;
+}
+header div{
+  font-size: 10px;
+}
+
+/* 
+  MAIN
+*/
+
+/* users */
+.users{
+  height: calc(100vh - 70px - 30px);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  overflow-y: auto;
+  justify-items: flex-start;
+}
+.users img{
+  width: 200px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+/* 
+  FOOTER
+*/
+
+footer{
+height: 70px;
+background-color: #222222;
+}
+
+#chev{
+  font-size: 10px;
+  padding-right: 15px;
+}
+
+.interaction{
+height: 100%;
+}
+
+footer div{
+  padding-right: 15px;
+}
+
+#green{
+  color: #3CCE00;
+}
+
+#end{
+  background-color: #4A4A4A;
+  color: #F71B30;
+  margin-right: -15px;
+  padding: 0 20px;
+}
+
+.aud-vid{
+  padding-left: 10px;
 }

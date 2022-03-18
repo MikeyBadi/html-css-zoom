@@ -3,6 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: black;
+}
 .d-flex{
   display: flex;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.name{
+  position: absolute;
+  top: 110px;
+  left: 0;
+  font-size: 12px;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+footer div{
+  display: inline-block;
+}
+
+.optn i{
+  font-size: 30px;
+}
+
+.optn p{
+  font-size: 10px;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.shrink{
+  flex-shrink: 0;
 }
