@@ -1,0 +1,17 @@
+/* 
+  HEADER
+*/
+
+/* view option */
+.grid-view div,
+.grid-view .fa-maximize{
+  background-color: #4A4A4A;
+  border-radius: 5px; 
+  color: white;
+  margin: 10px 0 10px 5px;
+  padding: 3px 3px;
+}
+
+.grid-view{
+  justify-content: flex-end;
+}
